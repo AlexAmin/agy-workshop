@@ -1,4 +1,4 @@
-# AGY Workshop Skills
+# AGY Workshop
 
 Plantilla para el taller de Google Antigravity (`agy`). Contiene tres skills de
 agente listas para usar: **manager**, **coder** y **tester**, y un pequeño

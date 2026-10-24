@@ -1,8 +1,8 @@
 # AGY Workshop Skills
 
 Plantilla para el taller de Google Antigravity (`agy`). Contiene tres skills de
-agente listas para usar: **manager**, **coder** y **tester**. No incluye código
-de aplicación: lo pones tú.
+agente listas para usar: **manager**, **coder** y **tester**, y un pequeño
+código de práctica (calculadora de un carrito de la compra, en Python).
 
 ## Los tres roles
 
@@ -17,6 +17,12 @@ de aplicación: lo pones tú.
 3. Ejecuta `agy`.
 
 Las skills viven en `.agents/skills/` y se cargan bajo demanda, cuando la tarea las necesita.
+
+## Código de práctica
+
+- `shop/`: el código; `tests/`: sus tests.
+- `ISSUES.md`: tres issues para trabajar con los agentes.
+- Para ejecutar los tests: `python3 -m unittest`
 
 ## Principio
 

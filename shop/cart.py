@@ -9,4 +9,4 @@ class Cart:
         self.items.append({"name": name, "price": price, "quantity": quantity})
 
     def total(self):
-        return sum(item["price"] for item in self.items)
+        return sum(item["price"] * item["quantity"] for item in self.items)
